@@ -8,7 +8,7 @@
     <style>
     .bilgi {
         
-            margin-buttom:5px;
+            margin-buttom:6px;
         }
 	</style>
 	<body style="background-color: #252525; width: 100%">
