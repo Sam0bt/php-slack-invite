@@ -33,7 +33,7 @@
  
 	@$email=$_POST["email"];
 	$newmail = trim($email);
-	@$team =  "pisi";
+	@$team =  "TEAM(Subdomain)";
 	
 
 	function SlackPost()
@@ -45,7 +45,7 @@
 
 	curl_setopt($ch, CURLOPT_URL,"https://".@$team."slack.com/api/users.admin.invite?%271437057013%");
 	curl_setopt($ch, CURLOPT_POST, 1);
-	curl_setopt($ch, CURLOPT_POSTFIELDS,'email='.$newmail.'&token=xoxp-2771922705-2771922709-2816358363-a8b13e');
+	curl_setopt($ch, CURLOPT_POSTFIELDS,'email='.$newmail.'&token=TOKEN-API');
 	curl_setopt($ch ,CURLOPT_RETURNTRANSFER , True);
 		$replyRaw = curl_exec($ch);
 
