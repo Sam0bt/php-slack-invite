@@ -43,7 +43,7 @@
 		$ch = curl_init(); // oturum baslat
 	// POST  adresi
 
-	curl_setopt($ch, CURLOPT_URL,"https://".@$team."slack.com/api/users.admin.invite?%271437057013%");
+	curl_setopt($ch, CURLOPT_URL,"https://".@$team."slack.com/api/users.admin.invite?%C02NPT4MB%");
 	curl_setopt($ch, CURLOPT_POST, 1);
 	curl_setopt($ch, CURLOPT_POSTFIELDS,'email='.$newmail.'&token=TOKEN-API');
 	curl_setopt($ch ,CURLOPT_RETURNTRANSFER , True);
