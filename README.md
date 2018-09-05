@@ -10,7 +10,7 @@ Kayıt durumu , E-mail Adresi ve Kayıt Tarih ve Saatinide bir log dosyasinida t
 48. Satirda Slack Api ile Aldığınız Tokeninizi yazın.
 <br><br>
 
-<b>Demo :</b> <a href="http://samibabat.com/project/slack/invite/">http://samibabat.com/project/slack/invite/</a> 
+<b>Demo :</b> <a href="http://samibabat.com/apps/slack/invite/">http://samibabat.com/apps/slack/invite/</a> 
 
 <b>Bu Uygulama PisiLinux Slack Takımı için yazılmıştır</b>
 <a href="http://www.pisilinux.org/"> Pisilinux.org</a>
